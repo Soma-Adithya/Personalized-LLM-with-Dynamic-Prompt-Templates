@@ -1,0 +1,85 @@
+/* Chat container styles */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial', sans-serif; /* Default font family */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+  background-color: #f0f4f8; /* Light blue-grey background */
+  border: 1px solid #d1d5db; /* Soft border */
+  position: relative;
+  width: 60%; /* Allows proper positioning of the child elements */
+  margin-bottom: 0px;
+}
+
+/* Chat messages area, scrollable */
+.chat-messages {
+  flex: 1;
+  padding: 40px;
+  background-color: #ffffff; /* White background for messages */
+  border-bottom: 1px solid #d1d5db; /* Soft border for separation */
+  color: #333333; /* Dark grey text color for readability */
+  max-height: calc(100vh - 70px); /* Accounts for the input field height */
+  font-family: 'Roboto', sans-serif; /* Roboto font for chat messages */
+  font-weight: 400; /* Normal weight for messages */
+  font-style: italic; /* Italic for chat messages */
+}
+
+/* Chat input field fixed at the bottom */
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #e2e8f0; /* Light grey-blue for input background */
+  border-top: 1px solid #d1d5db; /* Border to separate input field */
+  position: absolute; /* Absolute positioning to stick to the bottom */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  font-family: 'Arial', sans-serif; /* Consistent font for input */
+  font-weight: 400; /* Normal weight */
+  font-style: normal; /* Normal font style */
+}
+
+/* Input field styling */
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cbd5e1; /* Border color matches background color */
+  border-radius: 4px;
+  margin-right: 10px; /* Space between input and button */
+  background-color: #ffffff; /* White input field */
+  color: #333333; /* Dark grey text */
+  outline: none; /* Removes the default focus outline */
+  font-family: 'Roboto', sans-serif; /* Roboto for consistency */
+  font-weight: 300; /* Light weight for input text */
+  font-style: normal; /* Normal font style */
+}
+
+input::placeholder {
+  color: #888888; /* Softer color for placeholder text */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; /* Light weight for placeholder */
+  font-style: italic; /* Italic style for placeholder text */
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2563eb; /* Blue button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700; /* Bold font for button */
+  font-style: normal; /* Normal font style */
+}
+
+button:hover {
+  background-color: #1e40af; /* Darker blue on hover */
+}

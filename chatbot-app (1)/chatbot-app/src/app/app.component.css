@@ -1,0 +1,76 @@
+/* Common Styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa; /* Light grey background for main content */
+  font-family: 'Arial', sans-serif; /* Default font for the app container */
+  font-weight: 400; /* Normal weight */
+  font-style: normal; /* Normal style */
+}
+
+.app-header {
+  background-color: #1387e6; /* Black background */
+  color: #fff; /* White text */
+  padding: 10px; /* Reduced padding for smaller height */
+  font-size: 10px; /* Smaller font size */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif; /* Roboto font for the header */
+  font-weight: 700; /* Bold font weight */
+  font-style: italic; /* Italic font style */
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  font-family: 'Arial', sans-serif; /* Consistent font for main content */
+  font-weight: 400; /* Normal weight */
+  font-style: normal; /* Normal style */
+}
+
+app-sidebar {
+  width: 40%;
+  background-color: #000; /* Black sidebar background */
+  color: #fff; /* White text */
+  font-family: 'Roboto', sans-serif; /* Roboto font for the sidebar */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+}
+
+app-chatbot {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white; /* White background for chatbot */
+  border-left: 1px solid #dee2e6; /* Light grey border */
+  overflow: hidden; /* Hide overflow for proper layout */
+  position: relative; /* Ensure children can be positioned absolutely */
+  font-family: 'Roboto', sans-serif; /* Roboto font for chatbot */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+}
+
+/* Sidebar Links */
+.sidebar-container h3 {
+  color: #fff; /* White text for the prompt heading */
+  font-family: 'Arial', sans-serif; /* Arial for headings */
+  font-weight: 700; /* Bold font weight for headings */
+  font-style: normal; /* Normal style */
+}
+
+.sidebar-container ul li {
+  color: #ddd; /* Light grey text for list items */
+  font-family: 'Roboto', sans-serif; /* Roboto for list items */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+}
+
+.sidebar-container ul li:hover {
+  background-color: #333; /* Dark grey hover effect */
+  color: #fff; /* White text on hover */
+  font-family: 'Roboto', sans-serif; /* Consistent font on hover */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+}

@@ -1,0 +1,63 @@
+.chat-window {
+  flex: 1;
+  padding: 10px;
+  font-family: 'Arial', sans-serif; /* Default font family */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+  height: 90%; /* Ensures the chat window does not exceed its container's height */
+  background-color: #f0f4f8; /* Light blue background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.user-message {
+  text-align: right;
+  background-color: #d0e7ff; /* Light blue background for user messages */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Small shadow for depth */
+  font-family: 'Roboto', sans-serif; /* Roboto for user messages */
+  font-weight: 500; /* Medium weight for user messages */
+  font-style: normal; /* Normal font style */
+}
+
+.bot-message {
+  text-align: left;
+  background-color: #ffffff; /* White background for bot messages */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Small shadow for depth */
+  font-family: 'Roboto';
+  font-weight: 300; /* Normal weight for bot messages */
+ 
+}
+
+/* Button styles */
+button {
+  align-self: flex-start;
+  padding: 5px 10px;
+  font-family: 'Arial', sans-serif; /* Default font family */
+  font-weight: 700; /* Bold font for button */
+  font-style: normal; /* Normal font style */
+  font-size: 14px;
+  background-color: #007bff; /* Blue background for button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px; /* Space above the button */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+/* Button focus effect */
+button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Custom focus outline */
+}

@@ -1,0 +1,17 @@
+.sidebar-container {
+  background-color: #e3f2fd; /* Light blue background */
+  color: #000; /* Black text */
+  padding: 15px;
+  height: 95%; /* Full height */
+  overflow-y: auto; /* Adds vertical scrollbar if content overflows */
+  font-family: 'Roboto', sans-serif; /* Roboto font */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+}
+
+.sidebar-container h3 {
+  color: #000; /* Black text for heading */
+  font-family: 'Arial', sans-serif; /* Arial font for headings */
+  font-weight: 700; /* Bold font weight for heading */
+  font-style: normal; /* Normal font style */
+}

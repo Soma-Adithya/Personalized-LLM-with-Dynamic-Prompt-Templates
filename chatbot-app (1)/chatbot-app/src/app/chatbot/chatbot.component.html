@@ -1,0 +1,7 @@
+<div class="chatbot-container">
+  <!-- Chat window where messages are displayed -->
+  <app-chat-window [messages]="messages"></app-chat-window>
+
+  <!-- Chat input field and send button fixed at the bottom -->
+  <app-chat-input (messageSent)="onMessageSent($event)"></app-chat-input>
+</div>

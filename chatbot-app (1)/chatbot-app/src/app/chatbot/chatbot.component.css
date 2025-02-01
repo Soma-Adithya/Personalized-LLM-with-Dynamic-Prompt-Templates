@@ -1,0 +1,46 @@
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px); /* Full height minus the header height */
+  overflow: auto; /* Hide overflow to fit within parent */
+  background-color: #f0f4f8; /* Light blue-grey background */
+  font-family: 'Arial', sans-serif; /* Default font family */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+}
+
+.chat-window {
+  flex: 1; /* Takes up available space */
+  padding: 10px;
+  overflow-y: auto; /* Enables scrolling */
+  background-color: #ffffff; /* White background for messages */
+  border-bottom: 1px solid #d1d5db; /* Soft border for separation */
+  color: #333333; /* Dark grey text color */
+  font-family: 'Roboto', sans-serif; /* Roboto for chat window */
+  font-weight: 400; /* Normal font weight */
+  font-style: normal; /* Normal font style */
+}
+
+.user-message {
+  text-align: right;
+  background-color: #e0f7fa; /* Light cyan for user messages */
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+  display: inline-block; /* Adjust to content size */
+  font-family: 'Roboto', sans-serif; /* Roboto for user messages */
+  font-weight: 500; /* Medium weight for user messages */
+  font-style: normal; /* Normal font style */
+}
+
+.bot-message {
+  text-align: left;
+  background-color: #fce4ec; /* Light pink for bot messages */
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+  display: inline-block; /* Adjust to content size */
+  font-family: 'Roboto', sans-serif; /* Roboto for bot messages */
+  font-weight: 400; /* Normal weight for bot messages */
+   /* Italic font style for bot messages */
+}
